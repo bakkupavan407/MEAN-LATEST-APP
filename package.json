@@ -1,0 +1,35 @@
+{
+    "name": "pavan",
+    "version": "1.0.0",
+    "description": "AngularJS app with jasmine testing",
+    "main": "server.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "test": "grunt"
+    },
+    "dependencies": {
+        "express": "3",
+        "mongodb": "*",
+        "mongoose": "*",
+        "multer": "*",
+        "body-parser": "*",
+        "ejs": "~2.4.1"
+    },
+    "keywords": [
+        "AngularJS",
+        "Jasmine",
+        "NodeJS",
+        "Mongodb"
+    ],
+    "author": "pavankuamrbakku",
+    "license": "ISC",
+    "devDependencies": {
+        "jasmine-core": "^2.4.1",
+        "karma": "^0.13.22",
+        "karma-chrome-launcher": "^0.2.2",
+        "karma-jasmine": "^0.3.7"
+    }
+}

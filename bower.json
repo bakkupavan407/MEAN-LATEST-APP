@@ -1,0 +1,29 @@
+{
+  "name": "pavan",
+  "description": "AngularJS app with jasmine testing",
+  "main": "server.js",
+  "authors": [
+    "pavankuamrbakku"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "AngularJS",
+    "Jasmine",
+    "NodeJS",
+    "Mongodb"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "^1.5.0",
+    "angular-resource": "^1.5.0",
+    "angular": "^1.5.0"
+  }
+}
